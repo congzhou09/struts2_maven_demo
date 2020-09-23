@@ -1,5 +1,7 @@
 #### 项目创建过程tips
-◇Tomcat+引入jar包方式有版本兼容问题，根据struts官网文章改用maven+jetty-maven-plugin方式；
+◇struts项目与servlet项目的基础部分一样，请求入口配置均位于"webapp/WEB-INF/web.xml"，区别在于servlet项目的路由控制都在web.xml，而struts项目通过servlet的filter机制将路由配置转移到了"resources/struts.xml"中；
+
+◇Tomcat+jar引入包方式有版本兼容问题，根据struts官网文章改用maven+jetty-maven-plugin方式；
 
 
 #### 启动
