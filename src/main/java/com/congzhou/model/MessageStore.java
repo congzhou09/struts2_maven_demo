@@ -5,7 +5,7 @@ public class MessageStore implements Serializable{
     private String message;
 
     public MessageStore() {
-        message = "Hello Struts User";
+        message = "Hello，我是数据层的内容";
     }
 
     public String getMessage() {

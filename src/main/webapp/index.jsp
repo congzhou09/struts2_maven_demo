@@ -3,9 +3,9 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Basic Struts 2 Application - Welcome</title>
+    <title>主页</title>
 </head>
 <body>
-<h1>Welcome To Struts 2!</h1>
+<h1>主页 welcome you</h1>
 </body>
 </html>
